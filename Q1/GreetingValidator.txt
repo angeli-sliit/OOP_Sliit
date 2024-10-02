@@ -1,0 +1,13 @@
+Write a Java program that prompts the user to enter their name and age, validates the inputs,
+ and prints a greeting message to the console. If the user enters an invalid age, the program
+ should throw a custom exception called “InvalidInputException”. The program should be
+ implemented as follows:
+ Create a custom exception class called “InvalidInputException” that printout the error message
+ “Invalid age: Age should be a positive integer less than or equal to 120” if the age is a negative
+ number or greater than 120.
+ Create another class “GreetingValidator” to get the user inputs through the main method. The
+ program should prompt the user to enter their name and age.
+ The program should validate the age by checking that it is a positive integer less than or equal
+ to 120. If the age is invalid, the program should throw an InvalidInputException.
+ If age is valid, the program should print a greeting message to the console that includes the
+ user's name and age.
